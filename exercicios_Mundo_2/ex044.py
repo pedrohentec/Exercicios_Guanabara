@@ -17,7 +17,7 @@ elif pagamento == '3':
 elif pagamento == '4':
     juros = preco + (preco * 20 / 100)
     parcelas = int(input('Quantas parcelas? '))
-    preco_parcelas = preco / parcelas
+    preco_parcelas = juros / parcelas
     print(f'Você terá um acréscimo 20% de juros, sendo assim irá pagar R${juros:.2f} em {parcelas} parcelas de R${preco_parcelas:.2f} ao final da compra')
 else:
     print('Você não digitou uma opção válida')
