@@ -14,3 +14,4 @@ while True:
         multiplicacao = contador * num
         print(f'{num} x {contador:>2} = {multiplicacao}')
         contador += 1
+    
